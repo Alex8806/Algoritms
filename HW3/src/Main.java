@@ -3,7 +3,9 @@ public class Main {
         LinkedList<String> l1 = new LinkedList();
         l1.add("ABC");
         l1.add("12");
-
+        l1.add("fdg");
+        l1.add("23442242");
+        l1.add("12");
         l1.add("1.34");
         l1.add("HELLO");
         l1.add("bye-bye");
@@ -11,6 +13,8 @@ public class Main {
         l1.quickSort();
         l1.print();
         l1.turn();
+        l1.print();
+        l1.turnBySwapsValues();
         l1.print();
         l1.turnBySwapsValues();
         l1.print();
